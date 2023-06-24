@@ -1,0 +1,118 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(209, 205, 205);
+    height: 600px;
+    width: 700px;
+    /*padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom:4% ;
+    padding-right: 4%;*/
+    background-color: beige;
+
+}
+.card{
+    display: flex;
+    border: 3px solid rgb(243, 239, 239);
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+
+}
+.leftsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(217, 217, 221);
+    height: 400px;
+    width: 250px;
+    background-color: rgb(9, 9, 148);
+    border-radius: 10px;
+    color: white;
+
+
+}
+.rightsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /*justify-content: space-between;*/
+    border: 1px solid rgb(214, 218, 214);
+    height:400px ;
+    width: 270px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: rgb(161, 154, 156);
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: rgb(207, 200, 201);
+
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid red;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: rgb(198, 206, 206);
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid red;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    flex-direction: row;
+    background-color: rgb(239, 245, 243);
+}
+.continue{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    flex-direction: row;
+    background-color: rgb(20, 20, 156);
+    color: whitesmoke;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
